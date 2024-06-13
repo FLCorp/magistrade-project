@@ -1,0 +1,260 @@
+@font-face {
+    font-family: Orbite;
+    src: url(font/Orbite-Regular.ttf);
+}
+
+*{
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+header {
+    background-color: #333;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    width: auto;
+    height: 100px;
+}
+
+h2 {
+    color: #fff;
+}
+
+.navigation nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navigation nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.7s ease;
+}
+
+.navigation nav a:hover {
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero .doubleur{
+    font-family: Orbite;
+    font-weight: 1;
+    font-size: 2em;
+}
+
+.about {
+    background-color: #aa00ff;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #aa00ff, #444);
+}
+
+.project {
+    width: 90%;
+    color: #fff;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 20px;
+}
+
+.project img {
+    width: 300px;
+    height: auto;
+    border-radius: 0px;
+}
+
+.project a{
+    color: #fff;
+    text-decoration: underline;
+    transition: all 0.5s ease;
+}
+
+.project a:hover{
+    color: #047b90;
+}
+
+.project a:active{
+    color: #ff0000;
+}
+
+.contact {
+    background-color: #444;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #5bff03;
+    font-family: Arial;
+}
+
+.docs{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.new-docs{
+  background-color: #333;
+  background-image: url(img/background.png);
+  background-position: center;
+  background-size: cover;
+  padding: 5px 20px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.new-docs h1{
+  color: #fff;
+  font-family: Arial;
+}
+
+.new-docs strong{
+    font-family: Orbite;
+    font-size: 2em;
+    font-weight: 1;
+}
+
+@media screen and (max-width : 768px){
+    header{
+        background-size: 1000px;
+    }
+    .project {
+        width: 300px;
+        color: #fff;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        padding: 20px;
+        background-color: #333;
+        border-radius: 20px;
+    }
+    .project img {
+        width: 300px;
+        height: auto;
+        border-radius: 20px;
+    }
+    .project a{
+        color: #fff;
+        text-decoration: underline;
+        transition: all 0.5s ease;
+    }
+    .project a:active{
+        color: #047b90;
+    }
+}
+
+@media screen and (max-width : 426px){
+    header{
+        background-size: 500px;
+    }
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+        background: linear-gradient(to bottom, #aa00ff, #444);
+    }
+    .project {
+        width: 300px;
+        color: #fff;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        padding: 20px;
+        background-color: #333;
+        border-radius: 20px;
+    }
+    .project img {
+        width: 200px;
+        height: auto;
+        border-radius: 20px;
+    }
+    .project a{
+        color: #a81010;
+        text-decoration: underline;
+        transition: all 0.5s ease;
+    }
+    .project a:active{
+        color: #047b90;
+    }
+}
+
+@media screen and (max-width : 320px){
+    header{
+        background-size: 350px;
+    }
+    .project {
+        width: 240px;
+        color: #fff;
+        border: 1px solid #ddd;
+        background-color: #fff;
+        padding: 20px;
+        background-color: #333;
+        border-radius: 20px;
+    }
+    .project img {
+        width: 200px;
+        height: auto;
+        border-radius: 20px;
+    }
+    .project a{
+        color: #a81010;
+        text-decoration: underline;
+        transition: all 0.5s ease;
+    }
+    .project a:active{
+        color: #047b90;
+    }
+}
