@@ -34,30 +34,6 @@ h2 {
     color: #fff;
 }
 
-.navigation nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-.navigation nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-
-.navigation nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.7s ease;
-}
-
-.navigation nav a:hover {
-    text-decoration: none;
-    color: #ff0000;
-    font-weight: bold;
-}
-
 .hero {
     background-size: cover;
     background-position: center;
@@ -69,51 +45,6 @@ h2 {
     font-family: Orbite;
     font-weight: 1;
     font-size: 2em;
-}
-
-.about {
-    background-color: #aa00ff;
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
-    background: linear-gradient(to bottom, #aa00ff, #444);
-}
-
-.project {
-    width: 90%;
-    color: #fff;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    padding: 20px;
-    background-color: #333;
-    border-radius: 20px;
-}
-
-.project img {
-    width: 300px;
-    height: auto;
-    border-radius: 0px;
-}
-
-.project a{
-    color: #fff;
-    text-decoration: underline;
-    transition: all 0.5s ease;
-}
-
-.project a:hover{
-    color: #047b90;
-}
-
-.project a:active{
-    color: #ff0000;
 }
 
 .contact {
@@ -146,6 +77,7 @@ footer a{
   display: flex;
   justify-content: left;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .new-docs{
@@ -173,27 +105,14 @@ footer a{
     header{
         background-size: 1000px;
     }
-    .project {
-        width: 300px;
-        color: #fff;
-        border: 1px solid #ddd;
-        background-color: #fff;
-        padding: 20px;
-        background-color: #333;
-        border-radius: 20px;
-    }
-    .project img {
-        width: 300px;
-        height: auto;
-        border-radius: 20px;
-    }
-    .project a{
-        color: #fff;
-        text-decoration: underline;
-        transition: all 0.5s ease;
-    }
-    .project a:active{
-        color: #047b90;
+    .new-docs{
+      background-color: #333;
+      background-image: url(img/background.png);
+      background-position: center;
+      background-size: cover;
+      padding: 5px 20px;
+      border-radius: 30px;
+      margin: 10px;
     }
 }
 
