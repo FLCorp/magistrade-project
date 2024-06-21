@@ -34,11 +34,36 @@ h2 {
     color: #fff;
 }
 
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #00142c;
+    color: #fff;
+    border: 2px #fff solid;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    border-radius: 20px;
+    background-color: #fff;
+    color: #000000;
+    border: #000000;
+}
+
+button:active{
+    background-color: #000000;
+    color: #fff;
+    border: #fff;
+}
+
 .hero {
-    background-size: cover;
-    background-position: center;
+    background-color: #021755;
+    padding: 20px;
+    border-radius: 20px;
     color: #fff;
     text-align: center;
+    margin: 10px;
 }
 
 .hero .doubleur{
@@ -69,30 +94,79 @@ footer a{
 .caption {
     margin-top: 10px;
     font-size: 13px;
+    color: #ffea03;
+    font-family: Arial;
+}
+
+.finished-caption {
+    margin-top: 10px;
+    font-size: 13px;
     color: #5bff03;
     font-family: Arial;
 }
 
+.unfinished-caption {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ff0303;
+    font-family: Arial;
+}
+
+.non-caption {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #000000;
+    font-family: Arial;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .docs{
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.finished-docs{
+    display: none;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.unfinished-docs{
+    display: none;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.non-docs{
+    display: none;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .new-docs{
-  background-color: #333;
-  background-image: url(img/background.png);
-  background-position: center;
-  background-size: cover;
-  padding: 5px 20px;
-  border-radius: 30px;
-  margin: 10px;
+    background-color: #333;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin: 10px;
 }
 
 .new-docs h1{
-  color: #fff;
-  font-family: Arial;
+    color: #fff;
+    font-family: Arial;
 }
 
 .new-docs strong{
@@ -153,6 +227,10 @@ footer a{
 @media screen and (max-width : 320px){
     header{
         background-size: 350px;
+    }
+    .title img{
+        width: 280px;
+        height: auto;
     }
     .project {
         width: 240px;
