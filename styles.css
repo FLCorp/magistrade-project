@@ -175,6 +175,12 @@ footer a{
     font-weight: 1;
 }
 
+.hero .season{
+    font-family: Orbite;
+    font-weight: 1;
+    font-size: 1.5em;
+}
+
 @media screen and (max-width : 768px){
     header{
         background-size: 1000px;
