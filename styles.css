@@ -154,7 +154,7 @@ footer a{
     flex-wrap: wrap;
 }
 
-.new-docs{
+.new-docs-s1{
     background-color: #333;
     background-image: url(img/background.png);
     background-position: center;
@@ -164,12 +164,12 @@ footer a{
     margin: 10px;
 }
 
-.new-docs h1{
+.new-docs-s1 h1{
     color: #fff;
     font-family: Arial;
 }
 
-.new-docs strong{
+.new-docs-s1 strong{
     font-family: Orbite;
     font-size: 2em;
     font-weight: 1;
@@ -179,6 +179,28 @@ footer a{
     font-family: Orbite;
     font-weight: 1;
     font-size: 1.5em;
+}
+
+.new-docs-s2{
+    background-color: #333;
+    background-image: url(img/background-s2.png);
+    background-position: center;
+    background-size: cover;
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin: 10px;
+    display: none;
+}
+
+.new-docs-s2 h1{
+    color: #fff;
+    font-family: Arial;
+}
+
+.new-docs-s2 strong{
+    font-family: Orbite;
+    font-size: 2em;
+    font-weight: 1;
 }
 
 @media screen and (max-width : 768px){
