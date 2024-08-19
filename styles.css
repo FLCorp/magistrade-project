@@ -66,6 +66,12 @@ button:active{
     margin: 10px;
 }
 
+.hero .news{
+    background-color: #010d34;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 .hero .doubleur{
     font-family: Orbite;
     font-weight: 1;
@@ -162,6 +168,7 @@ footer a{
     padding: 5px 20px;
     border-radius: 30px;
     margin: 10px;
+    display: none;
 }
 
 .new-docs-s1 h1{
