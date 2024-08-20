@@ -257,6 +257,10 @@ footer a{
     .project a:active{
         color: #047b90;
     }
+    .news img{
+        width: 200px;
+        height: auto;
+    }
 }
 
 @media screen and (max-width : 320px){
