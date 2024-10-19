@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Magistrade</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="icon" href="img/Nora_Group_logo.png">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="img/title.png" width="200"><br>
+            <a href="account.html"><button>Connexion</button></a>
+        </div>
+    </header>
+    <br><br><br>
+    <section class="hero">
+        <div class="login-form">
+            <h2>Identification</h2>
+            <div id="error-message" class="error-message"></div>
+            <input type="text" id="username" placeholder="Identifiant" required>
+            <input type="password" id="password" placeholder="Mot de passe" required>
+            <button onclick="login()">Se connecter</button>
+        </div>
+    </section>
+
+    <footer>
+        Les documents présents sur le site <strong>NE DOIVENT PAS</strong> être partagés. <br>
+        <strong>AUCUNE</strong> capture d'écran ne doit être prise, ou sinon ne doit être partagée. <br>
+        Le Projet Magistrade <strong>NE DOIT PAS</strong> se retrouver entre les mains de n'importe qui. <br>
+        Si vous avez accès à ce site, c'est parce que vous êtes une personne de confiance! Alors ne brisez pas cette
+        confiance que nous avons en vous. <br>
+        Le site a été développé par le <a href="https://flcorp.github.io/nora-group/" target="_blank"><strong>Groupe Nora</strong></a>
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>

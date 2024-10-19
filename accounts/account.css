@@ -1,6 +1,6 @@
 @font-face {
     font-family: Orbite;
-    src: url(font/Orbite-Regular.ttf);
+    src: url(https://flcorp.github.io/magistrade-project/font/Orbite-Regular.ttf);
 }
 
 *{
@@ -16,7 +16,7 @@ body {
 
 header {
     background-color: #333;
-    background-image: url(img/background.png);
+    background-image: url(https://flcorp.github.io/magistrade-project/img/background.png);
     background-position: center;
     background-size: 2000px;
     background-repeat: no-repeat;
