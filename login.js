@@ -1,7 +1,7 @@
 // Identifiants et mots de passe hachés (SHA-256 en hexadécimal)
 const users = {
     'admin-NathanLvq': {
-        password: '84a77cd55b6c550f53cf431f56b6188b3bd7a97ca2ddf3bf6547f4d0f9caa150', // Admin!Charadesigner-Animateur*
+        password: '84a77cd55b6c550f53cf431f56b6188b3bd7a97ca2ddf3bf6547f4d0f9caa150',
         redirect: 'accounts/nathan.html'  // Page de redirection pour admin
     }
 };
